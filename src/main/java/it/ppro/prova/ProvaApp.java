@@ -56,6 +56,7 @@ public class ProvaApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	//enrico prova 1
         SpringApplication app = new SpringApplication(ProvaApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
